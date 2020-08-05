@@ -162,3 +162,15 @@ ul {
   ::-webkit-scrollbar-thumb:hover {
     background: #7847a7;
   }
+
+
+  @media screen and (max-width: 600px) {
+    .inputCont,
+    .outputCont {
+        width: 300px;
+    }
+
+    .container {
+        margin: 0;
+    }
+  }
