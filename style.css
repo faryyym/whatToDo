@@ -172,14 +172,12 @@ ul {
 
     .container {
         margin: 0;
-        height: 80vh;
+        max-height: 80vh;
     }
 
     .outputCont {
-        height: 45vh;
+        max-height: 50vh;
+        height: auto;
     }
 
-    .container {
-        margin: 0;
-    }
   }
